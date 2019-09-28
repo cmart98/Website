@@ -1,13 +1,17 @@
 * {
-  margin: 0;
+  margin: 1;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(255, 255, 255);/*color of backgrounf of header    */
 }
 
-body {
+
+
+body { 
   height: 100vh;
-  background-color: rgb(139, 62, 85);
+  background-color: rgb(69, 125, 151);/*color of backgrounf of the whole page      */
   font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
 }
 a,
 button {
@@ -16,29 +20,29 @@ button {
 
 .dropdown {
   height: 10vh;
-  width: 60%;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.projects,
+
 .products {
   position: relative;
 }
 
-.projects ul,
+
 .products ul {
   margin-top: 10px;
   position: absolute;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   width: 200px;
   height: 200px;
-  background: white;
+  background: rgb(167, 167, 167);/*color of background of drop down   */
   left: 0px;
   list-style: none;
   border-radius: 5px;
@@ -47,7 +51,7 @@ button {
   transform: translateY(-10px);
   transition: all 0.4s ease;
 }
-.projects li,
+
 .products li {
   width: 100%;
   height: 100%;
@@ -56,14 +60,14 @@ button {
   align-items: center;
 }
 
-.projects li:hover,
+
 .products li:hover {
-  background-color: rgb(197, 173, 181);
+  background-color: rgb(255, 255, 255);/*color of when hoverinh    */
 }
 
-.projects a,
+
 .products a {
-  color: black;
+  color: rgb(0, 0, 0);/*color of letters on drop down    */
   text-decoration: none;
 }
 
@@ -72,14 +76,44 @@ button {
   background: none;
   text-decoration: none;
   border: none;
-  color: white;
+  color: rgb(0, 0, 0); /*color of letters on page      */
   font-size: 18px;
   cursor: pointer;
 }
 
-.projects button:focus + ul,
+
 .products button:focus + ul {
   opacity: 1;
   pointer-events: all;
   transform: translateY(0px);
 }
+
+.nav div{
+height: 4px;
+background-color: rgb(0, 0, 0);
+margin: 5px 0;
+border-radius: 25px;
+transition: 0.3s;
+}
+.nav{
+  width: 30px;
+  display: block;
+  margin: lem 0 0 lem;
+
+}
+
+.one{
+  width: 30px;
+}
+.two{
+  width: 20px;
+}
+.three{
+  width: 25px;
+}
+
+.nav:hover div{
+  width: 30px;
+}
+
+
