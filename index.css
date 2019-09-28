@@ -1,12 +1,12 @@
 * {
-  margin: 0;
+  margin: 1000;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
   height: 100vh;
-  background-color: rgb(139, 62, 85);
+  background-color: rgb(156, 156, 156);
   font-family: "Poppins", sans-serif;
 }
 a,
@@ -38,7 +38,7 @@ button {
   align-items: center;
   width: 200px;
   height: 200px;
-  background: white;
+  background: white;/*color of drop down background */
   left: 0px;
   list-style: none;
   border-radius: 5px;
@@ -58,12 +58,12 @@ button {
 
 .projects li:hover,
 .products li:hover {
-  background-color: rgb(197, 173, 181);
+  background-color: rgb(197, 173, 181); /*color of drop down while hovering*/
 }
 
 .projects a,
 .products a {
-  color: black;
+  color: black;/*color of drop down letters */
   text-decoration: none;
 }
 
