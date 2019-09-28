@@ -1,0 +1,24 @@
+*{
+margin : 0;
+padding: 0;
+box-sizing: border-box;
+
+body{
+height :100vh;
+blackground-color: rgb(139,62,85);
+font-family: "Poppins",sans-serif;
+}
+a,
+button{
+font-family: "Poppins",sans-serif; 
+}
+
+.dropdown(
+height: 10vh;
+background: blue;
+display: flex;
+justify content: space-around;
+align-items: center;
+
+}
+
