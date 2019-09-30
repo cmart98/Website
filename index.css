@@ -4,9 +4,10 @@ h1{
 }
 
 c1{
-  font-size: 34px;
   text-align:  center;
-  
+  font-size: 34px;
+
+  color: rgb(255, 21, 21);
 }
 c2{
   font-size: 24px;
@@ -21,7 +22,7 @@ c2{
   background-color: #333;
   font-family: Arial;
   font-size: 16px;
-  
+  text-align: center;
 }
 
 /* Links inside the navbar */
@@ -99,11 +100,11 @@ c2{
   height: 3px;
   background-color: rgb(228, 228, 228);
   margin: 5px 0;
-  border-radius: 20px;
+  border-radius: 30px;
   transition: 0.3s;
   }
   .nav{
-    width: 20px;
+    width: 10px;
     display: block;
     margin: lem 0 0 lem;
    
@@ -123,3 +124,19 @@ c2{
     width: 30px;
   }
   
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+ 
