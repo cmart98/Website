@@ -1,21 +1,36 @@
 
+h1{
+  text-align:  center;
+}
+
+c1{
+  font-size: 34px;
+  text-align:  center;
+  
+}
+c2{
+  font-size: 24px;
+  text-align:  center;
+  
+}
+
 
 /* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
-
+  font-size: 16px;
   
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: rgb(255, 247, 247);
   text-align: center;
-  padding: 14px 16px;
+  padding: 4px 36px;
   text-decoration: none;
 }
 
@@ -31,16 +46,16 @@
   border: none;
   outline: none;
   color: white;
-  padding: 14px 30px;
+  padding: 14px 40px;
   text-align: center;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a gray background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: rgb(177, 177, 177);
 }
 
 /* Dropdown content (hidden by default) */
@@ -48,7 +63,7 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -57,7 +72,7 @@
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 12px 36px;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -73,15 +88,22 @@
   display: block;
 }
 
+
+
+
+
+
+
+
 .nav div{
-  height: 4px;
+  height: 3px;
   background-color: rgb(228, 228, 228);
   margin: 5px 0;
-  border-radius: 25px;
+  border-radius: 20px;
   transition: 0.3s;
   }
   .nav{
-    width: 30px;
+    width: 20px;
     display: block;
     margin: lem 0 0 lem;
    
